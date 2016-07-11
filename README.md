@@ -46,6 +46,8 @@ server {
 
         # PHP only, required if PHP was built with --enable-force-cgi-redirect
         fastcgi_param  REDIRECT_STATUS    200;
+
+        fastcgi_param  PHP_VALUE          "xhprof.output_dir=/var/log/velvica/xhprof";
     }
 }
 ```
