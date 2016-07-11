@@ -1,0 +1,15 @@
+{
+    "name": "nevmerzhitsky/xdebug-web",
+    "description": "Web-page for work with XDebug artifacts frim a running server.",
+    "type": "site",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Nevmerzhitsky",
+            "email": "sergey.nevmerzhitsky@gmail.com"
+        }
+    ],
+    "require": {
+        "lox/xhprof": "dev-master"
+    }
+}

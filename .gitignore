@@ -1,0 +1,7 @@
+/node_modules
+/.idea
+/.project
+/.settings
+/.buildpath
+/.pydevproject
+/vendor/
